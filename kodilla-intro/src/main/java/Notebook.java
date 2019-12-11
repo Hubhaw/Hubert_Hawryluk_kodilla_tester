@@ -39,7 +39,6 @@ public class Notebook {
         } else {
             System.out.println("This notebook is old and too expensive compared to it's year of production");
         }
-
     }
 
 }
