@@ -18,5 +18,7 @@ public class FirstClass {
         heavyNotebook.checkWeight();
         heavyNotebook.priceAndYearComparison();
 
+        LeapYear leapYear = new LeapYear(2057);
+        System.out.println("Czy "+ leapYear.year +" rok jest przestępny:"+" "+leapYear.isLeapYear());
     }
 }
